@@ -1,0 +1,20 @@
+package br.com.stefanini.clients.api.configuration.swagger;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+@EnableWebMvc
+public class WebConfig implements WebMvcConfigurer {
+
+	/*
+	  @Override
+	  public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+	       configurer.favorParameter(true)
+	      .ignoreAcceptHeader(true)
+		  .defaultContentType(MediaType.APPLICATION_JSON)
+		  .mediaType("json", MediaType.APPLICATION_JSON)
+		  .mediaType("xml", MediaType.APPLICATION_XML);
+	  }*/
+}
